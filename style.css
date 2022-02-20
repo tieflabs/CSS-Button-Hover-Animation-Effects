@@ -1,0 +1,40 @@
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+	background: #1c2127;
+}
+h1
+{
+	position: absolute;
+	font-size: 90px;
+	margin-top: 260px;
+	color: #06102936;
+	letter-spacing: 10px;
+	transform: rotate(-25deg);
+	font-family: 'Montserrat', sans-serif;
+}
+.btn{
+	position: absolute;
+	cursor: pointer;
+	height: 60px;
+	width: 250px;
+
+	font-size: 20px;
+	color: #dbe0ed;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+
+	margin: 300px 0px 0px;
+	border: 1px solid #343843;
+	box-shadow: #00000059 0px 5px 15px;
+	border-radius: 10px;
+
+	background: transparent;
+	backdrop-filter: blur(8px);
+}
+.btn:hover{
+	background: #0070fd;
+}
